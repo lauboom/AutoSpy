@@ -476,9 +476,35 @@ js_config:
   Script: HarbourJ_HarbourToulu_main/jd_opencardJoy.js
   TimeOut: 0
   Wait: 2
-
-
-
+- Container:
+  - []
+  Env: jd_shopCollectGiftId
+  KeyWord:
+  - - jd_shopCollectGiftId
+  Name: 【船长】店铺会员礼包
+  Script: HarbourJ_HarbourToulu_main/jd_shopCollectGift.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_shopFollowGiftId
+  KeyWord:
+  - - jd_shopFollowGiftId
+  - - jd_shopFollowGiftRunNums
+  Name: 【船长】关注有礼-JK
+  Script: HarbourJ_HarbourToulu_main/jd_shopFollowGift.py
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Disable: 0
+  Env: jd_shopLeagueId
+  KeyWord:
+  - - jd_shopLeagueId
+  Name: 【船长】开卡-shopLeague系列
+  Script: HarbourJ_HarbourToulu_main/jd_shopLeague_opencard.py
+  TimeOut: 0
+  Wait: 2
 
 
 
