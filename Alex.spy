@@ -160,3 +160,92 @@ js_config:
   Script: HarbourJ_HarbourToulu_main/jd_wxBirthGifts.py
   TimeOut: 0
   Wait: 5
+- Container:
+  - []
+  Env: jd_daily_activityId
+  KeyWord:
+  - - jd_daily_activityId
+  Name: 【KR】抢好礼通用活动
+  Script: jd_daily.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_collect_shop_activityUrl
+  KeyWord:
+  - - jd_collect_shop_activityUrl
+  Name: 【KR】收藏大师-关注商品
+  Script: KingRan_KR/jd_txzj_collect_shop.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_cjhy_wxKnowledgeActivity_activityId
+  KeyWord:
+  - - jd_cjwxKnowledgeActivity_activityId
+  - - jd_cjhy_wxKnowledgeActivity_activityId
+  - - jd_wxKnowledgeActivity_activityUrl
+  - - jd_lzkj_wxKnowledgeActivity_activityId
+  - - jd_wxKnowledgeActivity_activityId
+  Name: 【云上】知识超人
+  Script: KingRan_KR/jd_wxKnowledgeActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: DPLHTY
+  KeyWord:
+  - - DPLHTY
+  Name: 【开卡】大牌联合通用开卡
+  Script: KingRan_KR/jd_opencardDPLHTY.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxShareActivity_activityId
+  KeyWord:
+  - - jd_fxyl_activityId
+  - - jd_wxShareActivity_activityId
+  Name: 【KR】分享有礼-加密
+  Script: KingRan_KR/jd_wxShareActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
+  Env: M_FOLLOW_SHOP_ARGV
+  KeyWord:
+  - - M_FOLLOW_SHOP_ARGV
+  Name: 【M系】关注有礼
+  OverdueTime: 1800
+  Script: KingRan_KR/jd_follow.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxFansInterActionActivity_activityId
+  KeyWord:
+  - - jd_wxFansInterActionActivity_activityId
+  Name: 【KR】粉丝互动通用
+  Script: KingRan_KR/jd_wxFansInterActionActivity.js	
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxUnPackingActivity_activityId
+  KeyWord:
+  - - jd_wxUnPackingActivity_activityId
+  Name: 【KR】LZ让福袋飞
+  Script: KingRan_KR/jd_wxUnPackingActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Disable: 0
+  Env: jd_wdz_activityId
+  KeyWord:
+  - - jd_wdz_activityId
+  Name: 【船长】微定制组队
+  Script: HarbourJ_HarbourToulu_main/jd_wdz.py
+  TimeOut: 0
+  Wait: 2
