@@ -66,3 +66,68 @@ js_config:
   Script: KingRan_KR/jd_txzj_collect_item.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_cjdaily_activityId
+  KeyWord:
+  - - jd_cjdaily_activityId
+  Name: 【KR】CJ每日抢好礼通用活动
+  Script: KingRan_KR/jd_cjdaily.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_cart_item_activityUrl
+  KeyWord:
+  - - jd_txzj_cart_item_id
+  - - jd_cart_item_activityUrl
+  Name: 【KR】收藏大师-加购有礼
+  Script: KingRan_KR/jd_txzj_cart_item.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxSecond_activityId
+  KeyWord:
+  - - jd_wxSecond_activityId
+  Name: 【云上】读秒拼手速
+  Script: KingRan_KR/jd_wxSecond.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_drawCenter_activityId
+  KeyWord:
+  - - jd_drawCenter_activityId
+  Name: 【KR】LZ刮刮乐抽奖通用活动
+  Script: KingRan_KR/jd_drawCenter.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: LUCK_DRAW_URL
+  KeyWord:
+  - - LUCK_DRAW_URL
+  Name: 【KR】店铺抽奖通用活动-加密
+  Script: KingRan_KR/jd_luck_draw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxCartKoi_activityId
+  KeyWord:
+  - - jd_wxCartKoi_activityId
+  Name: 【云上】购物车锦鲤
+  Script: KingRan_KR/jd_wxCartKoi.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_wxBuildActivity_activityId
+  KeyWord:
+  - - jd_lzkj_wxBuildActivity_activityId
+  - - jd_wxBuildActivity_activityId
+  Name: 【KR】盖楼有礼
+  Script: KingRan_KR/jd_wxBuildActivity.js
+  TimeOut: 0
+  Wait: 2
