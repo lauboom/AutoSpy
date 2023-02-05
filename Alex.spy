@@ -1,6 +1,16 @@
 js_config:
 - Container:
   - []
+  Env: jd_wxShopGift_activityUrl
+  KeyWord:
+  - - jd_cjhy_wxShopGift_ids
+  - - jd_wxShopGift_activityUrl
+  Name: 【KR】店铺礼包特效
+  Script: KingRan_KR/jd_wxShopGift.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: DPQDTK
   KeyWord:
   - - DPQDTK
