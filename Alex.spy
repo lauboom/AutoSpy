@@ -513,3 +513,12 @@ js_config:
   Script: HarbourJ_HarbourToulu_main/jd_shopLeague_opencard.py
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_wxCartKoi_activityId
+  KeyWord:
+  - - jd_wxCartKoi_activityId
+  Name: 【KR】购物车锦鲤通用活动
+  Script: KingRan_KR/jd_wxCartKoi.js
+  TimeOut: 0
+  Wait: 2
