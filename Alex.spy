@@ -226,7 +226,7 @@ js_config:
   KeyWord:
   - - jd_wxFansInterActionActivity_activityId
   Name: 【KR】粉丝互动通用
-  Script: KingRan_KR/jd_wxFansInterActionActivity.js	
+  Script: KingRan_KR/jd_wxFansInterActionActivity.js
   TimeOut: 0
   Wait: 2
 - Container:
