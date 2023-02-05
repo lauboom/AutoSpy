@@ -249,6 +249,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_wdz_activityId
   KeyWord:
   - - jd_wdz_activityId
@@ -269,6 +270,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxCompleteInfoId
   KeyWord:
   - - jd_wxCompleteInfoId
@@ -288,6 +290,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_wxCollectionActivityUrl
   KeyWord:
   - - jd_wxCollectionActivity_activityUrl
@@ -337,6 +340,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jinggengInviteJoin
   KeyWord:
   - - jinggengInviteJoin
@@ -347,6 +351,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_inv_authorCode
   KeyWord:
   - - jd_inv_authorCode
@@ -450,6 +455,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_inv_authorCode
   KeyWord:
   - - jd_inv_authorCode
@@ -460,6 +466,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_joinCommonId
   KeyWord:
   - - jd_joinCommonId
@@ -478,6 +485,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_shopCollectGiftId
   KeyWord:
   - - jd_shopCollectGiftId
@@ -505,6 +513,3 @@ js_config:
   Script: HarbourJ_HarbourToulu_main/jd_shopLeague_opencard.py
   TimeOut: 0
   Wait: 2
-
-
-
