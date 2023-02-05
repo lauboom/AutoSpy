@@ -212,7 +212,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Disable: 0
   Env: M_FOLLOW_SHOP_ARGV
   KeyWord:
   - - M_FOLLOW_SHOP_ARGV
@@ -241,7 +240,15 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Disable: 0
+  Env: jd_wdzfd_activityId
+  KeyWord:
+  - - jd_wdzfd_activityId
+  Name: 【KR】微定制瓜分福袋-加密
+  Script: KingRan_KR/jd_wdzfd.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
   Env: jd_wdz_activityId
   KeyWord:
   - - jd_wdz_activityId
@@ -249,3 +256,55 @@ js_config:
   Script: HarbourJ_HarbourToulu_main/jd_wdz.py
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: SEVENDAY_LIST
+  KeyWord:
+  - - jd_lzkj_sevenDay_ids
+  - - LZKJ_SEVENDAY
+  - - SEVENDAY_LIST
+  Name: 【船长】超级无线店铺签到
+  Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxCompleteInfoId
+  KeyWord:
+  - - jd_wxCompleteInfoId
+  - - jd_completeInfoActivity_activityId
+  Name: 【船长】完善信息有礼
+  Script: HarbourJ_HarbourToulu_main/jd_wxCompleteInfo.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_zdjr_activityId
+  KeyWord:
+  - - jd_zdjr_activityId
+  Name: 【KR】ZJ瓜分京豆
+  Script: KingRan_KR/jd_zdjr.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_wxCollectionActivityUrl
+  KeyWord:
+  - - jd_wxCollectionActivity_activityUrl
+  - - M_WX_ADD_CART_URL
+  - - jd_cjhy_wxCollectionActivityId
+  - - jd_lzkj_wxCollectionActivityId
+  - - jd_wxCollectionActivityUrl
+  Name: 【船长】加购有礼通用
+  Script: HarbourJ_HarbourToulu_main/jd_wxCollectionActivity.py
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_lzkj_loreal_invite_url
+  KeyWord:
+  - - jd_lzkj_loreal_invite_url
+  Name: 【KR】邀请入会有礼
+  Script: KingRan_KR/jd_lzkj_loreal_invite.js
+  TimeOut: 0
+  Wait: 5
