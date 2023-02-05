@@ -308,3 +308,177 @@ js_config:
   Script: KingRan_KR/jd_lzkj_loreal_invite.js
   TimeOut: 0
   Wait: 5
+- Container:
+  - []
+  Env: jd_categoryUnion_activityId
+  KeyWord:
+  - - jd_categoryUnion_activityId
+  Name: 【KR】超级无线 · 品类联合抽奖
+  Script: KingRan_KR/jd_categoryUnion_draw.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_categoryUnion_activityId
+  KeyWord:
+  - - jd_categoryUnion_activityId
+  Name: 【KR】超级无线 · 品类联合任务
+  Script: KingRan_KR/jd_categoryUnion.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_shopDraw_activityUrl
+  KeyWord:
+  - - jd_shopDraw_activityUrl
+  Name: 【KR】店铺左侧刮刮乐
+  Script: KingRan_KR/jd_shopDraw.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jinggengInviteJoin
+  KeyWord:
+  - - jinggengInviteJoin
+  - - jd_showInviteJoin_activityUrl
+  Name: 【船长】邀请入会有礼
+  Script: HarbourJ_HarbourToulu_main/jd_jinggengInvite.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_inv_authorCode
+  KeyWord:
+  - - jd_inv_authorCode
+  - - yhyauthorCode
+  Name: 【船长】邀请赢大礼
+  Script: HarbourJ_HarbourToulu_main/jd_inviteFriendsGift.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_teamAJ
+  KeyWord:
+  - - jd_teamAJ
+  Name: 【KR】组队分豆-瓜分蒙牛、安佳
+  Script: KingRan_KR/jd_team_exchange.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_teamFLP
+  KeyWord:
+  - - jd_teamFLP
+  Name: 【KR】组队分豆-瓜分飞利浦、新安怡
+  Script: KingRan_KR/jd_team_exchange.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: SEVENDAY_LIST
+  KeyWord:
+  - - LZKJ_SEVENDAY
+  - - jd_lzkj_sevenDay_ids
+  - - SEVENDAY_LIST
+  Name: 【船长】超级无线店铺签到
+  Script: HarbourJ_HarbourToulu_main/jd_sevenDay.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_mhurlList
+  KeyWord:
+  - - jd_mhurlList
+  - - jd_mhurlLis
+  Name: 【KR】盲盒任务抽京豆
+  Script: KingRan_KR/jd_mhtask.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: JD_Lottery
+  KeyWord:
+  - - JD_Lottery
+  Name: 【KR】京东抽奖机通用
+  Script: KingRan_KR/jd_lottery.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_teamFLP_activityId
+  KeyWord:
+  - - jd_teamFLP_activityId
+  Name: 【KR】飞利浦组队分豆
+  Script: KingRan_KR/jd_teamFLP.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_draw_url
+  KeyWord:
+  - - jd_lzkj_loreal_draw_url
+  Name: 【KR】幸运抽奖
+  Script: KingRan_KR/jd_lzkj_loreal_draw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_followShop_url
+  KeyWord:
+  - - jd_lzkj_loreal_followShop_url
+  Name: 【KR】关注有礼
+  Script: KingRan_KR/jd_lzkj_loreal_followShop.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_cart_url
+  KeyWord:
+  - - jd_lzkj_loreal_cart_url
+  Name: 【KR】加购有礼
+  Script: KingRan_KR/jd_lzkj_loreal_cart.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: DPCJID
+  KeyWord:
+  - - DPCJID
+  Name: 【船长】店铺抽奖-JK
+  Script: HarbourJ_HarbourToulu_main/jd_dpcj.py
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_inv_authorCode
+  KeyWord:
+  - - jd_inv_authorCode
+  - - yhyauthorCode
+  Name: 【船长】邀请赢大礼
+  Script: HarbourJ_HarbourToulu_main/jd_inviteFriendsGift.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_joinCommonId
+  KeyWord:
+  - - jd_joinCommonId
+  Name: 【船长】通用开卡
+  Script: HarbourJ_HarbourToulu_main/jd_joinCommon_opencard.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_joyOpenId
+  KeyWord:
+  - - jd_joyOpenId
+  Name: 【船长】通用开卡
+  Script: HarbourJ_HarbourToulu_main/jd_opencardJoy.js
+  TimeOut: 0
+  Wait: 2
+
+
+
+
+
+
