@@ -131,3 +131,32 @@ js_config:
   Script: KingRan_KR/jd_wxBuildActivity.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: VENDER_ID
+  KeyWord:
+  - - VENDER_ID
+  Name: 【KR】入会开卡领取礼包通用
+  Script: KingRan_KR/jd_OpenCard_Force.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lottery_activityUrl
+  KeyWord:
+  - - jd_txzj_lottery_id
+  - - jd_lottery_activityUrl
+  Name: 【KR】收藏大师幸运抽奖
+  Script: KingRan_KR/jd_txzj_lottery.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxBirthGiftsId
+  KeyWord:
+  - - jd_wxBirthGiftsId
+  - - jd_wxMcLevelAndBirthGifts_activityId
+  Name: 【船长】生日和等级礼包
+  Script: HarbourJ_HarbourToulu_main/jd_wxBirthGifts.py
+  TimeOut: 0
+  Wait: 5
