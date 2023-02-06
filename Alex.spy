@@ -316,15 +316,6 @@ js_config:
   Env: jd_categoryUnion_activityId
   KeyWord:
   - - jd_categoryUnion_activityId
-  Name: 【KR】超级无线 · 品类联合抽奖
-  Script: KingRan_KR/jd_categoryUnion_draw.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Env: jd_categoryUnion_activityId
-  KeyWord:
-  - - jd_categoryUnion_activityId
   Name: 【KR】超级无线 · 品类联合任务
   Script: KingRan_KR/jd_categoryUnion.js
   TimeOut: 0
@@ -453,17 +444,6 @@ js_config:
   Script: HarbourJ_HarbourToulu_main/jd_dpcj.py
   TimeOut: 0
   Wait: 5
-- Container:
-  - []
-  Disable: 0
-  Env: jd_inv_authorCode
-  KeyWord:
-  - - jd_inv_authorCode
-  - - yhyauthorCode
-  Name: 【船长】邀请赢大礼
-  Script: HarbourJ_HarbourToulu_main/jd_inviteFriendsGift.py
-  TimeOut: 0
-  Wait: 2
 - Container:
   - []
   Disable: 0
