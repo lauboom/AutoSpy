@@ -166,7 +166,7 @@ js_config:
   KeyWord:
   - - jd_daily_activityId
   Name: 【KR】抢好礼通用活动
-  Script: jd_daily.js
+  Script: KingRan_KR/jd_daily.js
   TimeOut: 0
   Wait: 2
 - Container:
