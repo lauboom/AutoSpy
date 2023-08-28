@@ -531,7 +531,7 @@ js_config:
   Env: CJHY_SEVENDAY
   KeyWord:
   - - CJHY_SEVENDAY
-  Name: 【KR】cjhy 店铺签到 · 超级无线
+  Name: 【KR】cjhy店铺签到-超级无线
   Script: jd_sevenDay.js
   TimeOut: 0
   Wait: 2
@@ -540,7 +540,7 @@ js_config:
   Env: LZKJ_SEVENDAY
   KeyWord:
   - - LZKJ_SEVENDAY
-  Name: 【KR】LZKJ 店铺签到 · 超级无线
+  Name: 【KR】LZKJ店铺签到-超级无线
   Script: jd_sevenDay.js
   TimeOut: 0
   Wait: 2
@@ -886,4 +886,4 @@ js_config:
   Name: 【KR】a2集成长值赢千元礼包
   Script: jd_a2_draw.js
   TimeOut: 0
-  Wait: 2      
+  Wait: 2
