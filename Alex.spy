@@ -887,3 +887,30 @@ js_config:
   Script: jd_a2_draw.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_daily_ids
+  KeyWord:
+  - - jd_lzkj_daily_ids
+  Name: lzkj每日抢
+  Script: jd_lzkj_daily.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_interactsaas_zdgf_Ids
+  KeyWord:
+  - - jd_lzkj_interactsaas_zdgf_Ids
+  Name: lzkj_interactsaas组队瓜分
+  Script: jd_lzkj_interactsaas_zdgf.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: DPLHTY
+  KeyWord:
+  - - DPLHTY
+  Name: 【KR】大牌联合通用开卡
+  Script: jd_opencardDPLHTY.js
+  TimeOut: 0
+  Wait: 2
